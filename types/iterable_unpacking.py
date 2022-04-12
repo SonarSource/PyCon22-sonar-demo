@@ -1,0 +1,3 @@
+def my_method():
+    for x in 42:
+        ...
