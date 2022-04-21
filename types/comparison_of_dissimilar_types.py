@@ -1,0 +1,13 @@
+class MyClass:
+    ...
+
+
+class MyOtherClass:
+    ...
+
+
+def my_comparison():
+    if 42 == "hello":
+        ...
+    if MyClass() == MyOtherClass():
+        ...
