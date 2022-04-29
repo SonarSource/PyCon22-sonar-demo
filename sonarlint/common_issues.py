@@ -1,5 +1,5 @@
 # let's add the "item" to the list "ls"
-def my_append(item, ls = []):
+def my_append(item, ls=[]):
     ls.append(item)
 
 
@@ -25,3 +25,8 @@ def iterating_only_once(cond, cond2):
 
 def infinite_recursion():
     return [x + 1 for x in infinite_recursion()]
+
+
+def my_pow(num, exponent):
+    num = num * my_pow(num, exponent - 1)
+    return num
